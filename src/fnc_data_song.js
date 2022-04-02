@@ -38,8 +38,7 @@ var ary_TitleData = [
 	, "Codename Violet"
 	, "Priestige Pass"
 	, "O2JAM"
-	
-];
+	];
 
 
 // Number of columns in the selection list.
