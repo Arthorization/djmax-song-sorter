@@ -3,7 +3,7 @@
       with (oWindow.document) {
             write("<html>");
             write("<head>");
-            write("<title>DJMAX Respect Song Sorter: Raw Text Results<\/title>");
+            write("<title>EZ2ON RR Song Sorter: Raw Text Results<\/title>");
             write('<link rel="stylesheet" type="text/css" href="src/tcs_style_song.css">');
             write("<\/head>");
             write("<body>");
