@@ -4,6 +4,8 @@
 // 2018/11/26 Added to relick's github, changes tracked there
 // 2021/03/26 Adapted to DJMAX Respect songs by shockdude
 // github.com/shockdude/djmax-song-sorter
+// 2022/04/02 Adapted to EZ2ON Reboot R songs by Arthorization
+// 2022/04/02 Assets Extracted by Melone
 
 // *****************************************************************************
 str_CenterT = 'Tie!';
@@ -21,36 +23,24 @@ var maxRows = 42;
 
 // * Game and album titles
 var ary_TitleData = [
-	  "Respect"
-	, "Portable 1"
-	, "Portable 2"
-	, "Trilogy"
-	, "Clazziquai Edition"
-	, "Black Square"
-	, "Technika 1"
-	, "Technika 2"
-	, "Technika 3"
-	, "Emotional Sense"
-	, "V Extension"
-	, "Dok2 - ONLY ON"
-	, "Guilty Gear"
-	, "Girls' Frontline"
-	, "Groove Coaster"
-	, "Deemo"
-	, "Cytus"
-	, "Chunithm"
-	, "Portable 3"
-	, "ESTIMATE"
-	, "NEXON"
-	, "V Extension II"
+	  "1st Trax"
+	, "Special Edition"
+	, "2nd Trax"
+	, "3rd Trax"
+	, "4th Trax"
+	, "Platinum"
+	, "6th Trax"
+	, "7th Trax"
+	, "EZ2ON 2008"
+	, "EZ2ON 2013"
+	, "EZ2ON 2021"
+	, "Time Traveler"
+	, "Codename Violet"
+	, "Priestige Pass"
+	, "O2JAM"
+	
 ];
 
-// link disc helpers, indexes based on ary_TitleData
-var LINK_CE = 4
-var LINK_BS = 5
-var LINK_T1 = 6
-var LINK_V1 = 10
-var LINK_V2 = 21
 
 // Number of columns in the selection list.
 var int_Colspan = 3;
@@ -84,81 +74,33 @@ const EXTENDED_TYPE = 9;
 	const EXTENDED_MIX = 2;
 
 var ary_SongData = [
-	//Respect
-	[1, "2Nite",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "xuBQ7dGdj_s", "Respect", "DMR", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Alone",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "r2go-LVWJSU", "Respect", "DMR", "Nauts", REGULAR_SONG, SHORT_MIX],
-	[1, "Always",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "bM8VK_xb0xw", "Respect", "DMR", "YUGI / Mool", REGULAR_SONG, SHORT_MIX],
-	[1, "Armored Phantom",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "l1DB8GITfWg", "Respect", "DMR", "ned", REGULAR_SONG, SHORT_MIX],
-	[1, "Beautiful Day",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "14B7fXJMlBQ", "Respect", "DMR", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Beyond Yourself",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "31XJhQAn6EA", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "Binary World",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "SwHSQKSb6Nw", "Respect", "DMR", "Tsukasa", REGULAR_SONG, SHORT_MIX],
-	[1, "BlackCat",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "1LBOx8-6nB0", "Respect", "DMR", "BEXTER", REGULAR_SONG, SHORT_MIX],
-	[1, "Bleed",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "0PwnlLO-PPM", "Respect", "DMR", "Axol & The Tech Thieves", REGULAR_SONG, SHORT_MIX],
-	[1, "Boom!",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "QSFeCkvJMJg", "Respect", "DMR", "BEXTER", REGULAR_SONG, SHORT_MIX],
-	[1, "Bullet, Wanted!",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "3q8B6P7Q18I", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "Child of Night",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "5JkxGBrmwR8", "Respect", "DMR", "GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Dance of the Dead",						[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "WSWmV1ptWxk", "Respect", "DMR", "GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Don't Die",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "FJiWn8TMP08", "Respect", "DMR", "Paul Bazooka", REGULAR_SONG, SHORT_MIX],
-	[1, "Enter The Universe",						[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "E67dLnOoQ7g", "Respect", "DMR", "GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Far East Princess",						[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "fII19ZT5ipw", "Respect", "DMR", "Nauts", REGULAR_SONG, SHORT_MIX],
-	[1, "Flowering",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "OqBrfUnhrtI", "Respect", "DMR", "ampstyle", REGULAR_SONG, SHORT_MIX],
-	[1, "Fly Away",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "ZShvs84OmvA", "Respect", "DMR", "XeoN", REGULAR_SONG, SHORT_MIX],
-	[1, "glory day",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "pCLyI9YNRbc", "Respect", "DMR", "BEXTER / Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "Grid System",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "L0228qWCZ6g", "Respect", "DMR", "Tsukasa", REGULAR_SONG, SHORT_MIX],
-	[1, "Groovin Up",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "DpE27CYYf3E", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "Heavenly",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "_BtklcKl1hA", "Respect", "DMR", "makou", REGULAR_SONG, SHORT_MIX],
-	[1, "I Want You ~Twinkle Twinkle Sunshine~",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "MJNeTD4YqrI", "Respect", "DMR", "Studio LAY-BACK", REGULAR_SONG, SHORT_MIX],
-	[1, "Karma",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "30OUrSI4PQk", "Respect", "DMR", "ampstyle", REGULAR_SONG, SHORT_MIX],
-	[1, "Kingdom",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "6YLpU_guMGM", "Respect", "DMR", "Phantom Sage", REGULAR_SONG, SHORT_MIX],
-	[1, "KILLER BEE",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "16IDq4kESUQ", "Respect", "DMR", "GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Kung Brother",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "jBvtHoAllmg", "Respect", "DMR", "Paul Bazooka", REGULAR_SONG, SHORT_MIX],
-	[1, "Liar",										[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "u2g3sWqfibg", "Respect", "DMR", "zts", REGULAR_SONG, SHORT_MIX],
-	[1, "Lift You Up",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "XIO6foaJ6j4", "Respect", "DMR", "makou", REGULAR_SONG, SHORT_MIX],
-	[1, "Mulch",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "-9AUeXLECyg", "Respect", "DMR", "Sampling Masters MEGA", REGULAR_SONG, SHORT_MIX],
-	[1, "NB RANGER - Virgin Force",					[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "zgtT288z8nk", "Respect", "DMR", "NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "NEON 1989 (ESTi Remix)",					[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "uIzSFgcdQLA", "Respect", "DMR", "OREO / ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "Only for you",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "TbdZiu3Rarw", "Respect", "DMR", "NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "OPEN FIRE",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "yAntSnPUh3s", "Respect", "DMR", "JC", REGULAR_SONG, SHORT_MIX],
-	[1, "Over Your Dream",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "bC-3781SgsU", "Respect", "DMR", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "quixotic",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "n_Fd3OKTysE", "Respect", "DMR", "bermei.inazawa", REGULAR_SONG, SHORT_MIX],
-	[1, "Relation Again (ESTi's Remix)",			[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "TJnCqV8wQg8", "Respect", "DMR", "Tsukasa / ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "Remains Of Doom",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "oBC1t4TT89k", "Respect", "DMR", "NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "Royal Clown",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "GpV5kOWJ3VQ", "Respect", "DMR", "bermei.inazawa", REGULAR_SONG, SHORT_MIX],
-	[1, "Runaway",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "LvNfA98M7HM", "Respect", "DMR", "LeeZu", REGULAR_SONG, SHORT_MIX],
-	[1, "Running girl",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "MZxJkkCxZ9U", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "Ruti'n (GOTH Wild Electro Remix)",			[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "aR3VPCxUZzU", "Respect", "DMR", "BEXTER / GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Secret Dejavu",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "Q9TC9OQC0hs", "Respect", "DMR", "DINY", REGULAR_SONG, SHORT_MIX],
-	[1, "So Happy",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "TK1U0RLX8Gg", "Respect", "DMR", "Raven & Kreyn", REGULAR_SONG, SHORT_MIX],
-	[1, "Shadow Flower",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "QsaXBd9540A", "Respect", "DMR", "ned", REGULAR_SONG, SHORT_MIX],
-	[1, "Soar ~Stay With Me~",						[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "SevQdt7mLKI", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "SOUL LADY",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "5A49kaOLXeY", "Respect", "DMR", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "The Feelings",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "huCM0zSUmoE", "Respect", "DMR", "Supbaby", REGULAR_SONG, SHORT_MIX],
-	[1, "The Lost Story",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "vlo4GDfY8_M", "Respect", "DMR", "Neowiz Bless Team", REGULAR_SONG, SHORT_MIX],
-	[1, "The Obliterator",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "EhuVPbo01RI", "Respect", "DMR", "GOTH", REGULAR_SONG, SHORT_MIX],
-	[1, "Tok! Tok! Tok!",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "LoyDhqElODg", "Respect", "DMR", "STARTRACK", REGULAR_SONG, SHORT_MIX],
-	[1, "U.A.D",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "URUhsRk49bI", "Respect", "DMR", "HAYAKO", REGULAR_SONG, SHORT_MIX],
-	[1, "Void",										[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "9DdMyJpTEJY", "Respect", "DMR", "Kobayashi Tetsuya", REGULAR_SONG, SHORT_MIX],
-	[1, "voldenuit",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "c7hHUzzOn20", "Respect", "DMR", "Cuve", REGULAR_SONG, SHORT_MIX],
-	[1, "waiting for me",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "D14pZefLw9o", "Respect", "DMR", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Waiting for you",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "RvYqG_G4TGs", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "We're All Gonna Die",						[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "juflfGVFnI4", "Respect", "DMR", "Paul Bazooka", REGULAR_SONG, SHORT_MIX],
-	[1, "WHY",										[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "1f3GY4Osi7I", "Respect", "DMR", "Nauts", REGULAR_SONG, SHORT_MIX],
-
-	// Tapsonic Update
-	// image? https://i1.sndcdn.com/artworks-000006190833-2lyrrq-t500x500.jpg
-	[1, "Chemical Slave",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "hUJIztKXEgA", "Respect", "DMR", "XeoN", REGULAR_SONG, SHORT_MIX],
-	[1, "comet",			[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "pC-jATKyklA", "Respect", "DMR", "Mycin.T", REGULAR_SONG, SHORT_MIX],
-	[1, "RockSTAR",			[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "coTD0MaMlbQ", "Respect", "DMR", "Mr.Funky", REGULAR_SONG, SHORT_MIX],
-	[1, "Watch Your Step",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "49MxJ7MPq5Y", "Respect", "DMR", "XeoN", REGULAR_SONG, SHORT_MIX],
-
-	// V Exclusives
-	[1, "Alone",		[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e02c3055e5c1073d11b1ae2e553", "ALZHF5UqnU4", "Respect V", "DMRV", "marshmello", V_EXCLUSIVE, SHORT_MIX],
-	[1, "Get Jinxed",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e02e79c051bb5ccb3934b4ca42b", "0nlJuwO0GDs", "Respect V", "DMRV", "Riot Games", V_EXCLUSIVE, SHORT_MIX],
-	[1, "Ghost Voices",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e020f6af3fdf46507b622a44471", "HPc8QMycGno", "Respect V", "DMRV", "Virtual Self", V_EXCLUSIVE, SHORT_MIX],
-	[1, "POP/STARS",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e02d1241debb8543af8322a7d6a", "UOxkGD8qRB4", "Respect V", "DMRV", "Riot Games", V_EXCLUSIVE, SHORT_MIX],
-	[1, "Sad Machine",	[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e021f675e7b8bae408653346dd9", "dDmB28dA3n4", "Respect V", "DMRV", "Porter Robinson", V_EXCLUSIVE, SHORT_MIX],
+	//1st Trax
+	[1, "Baby Dance",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "xuBQ7dGdj_s", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Catch the Flow",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "r2go-LVWJSU", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
+	[1, "Confete",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "bM8VK_xb0xw", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Dirty D",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "l1DB8GITfWg", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Do you Remember?",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "14B7fXJMlBQ", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Envy Mask",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "31XJhQAn6EA", "1st Trax", "1st", "Creatune/Mario Bolden", REGULAR_SONG, SHORT_MIX],
+	[1, "Freedom",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Funny Funky",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1LBOx8-6nB0", "1st Trax", "1st", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Get the Beat",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "0PwnlLO-PPM", "1st Trax", "1st", "DJ. Hong", REGULAR_SONG, SHORT_MIX],
+	[1, "I Do Love You",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "QSFeCkvJMJg", "1st Trax", "1st", "Jeon Jun-Kyu/CROOVE", REGULAR_SONG, SHORT_MIX],
+	??[1, "I've Fallen",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "xuBQ7dGdj_s", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Let it Go",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "r2go-LVWJSU", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Look Out",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "bM8VK_xb0xw", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Minus 1",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "l1DB8GITfWg", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
+	[1, "Minus 1 (HD Mix)",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "14B7fXJMlBQ", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
+	[1, "Mystic Dream 9903",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "31XJhQAn6EA", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
+	[1, "Quake in Kyoto",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "The Rhythm",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1LBOx8-6nB0", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
+	[1, "Southwest Cadillac",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "0PwnlLO-PPM", "1st Trax", "1st", "Jeon Jun-Kyu", REGULAR_SONG, SHORT_MIX],
+	[1, "Stay",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "QSFeCkvJMJg", "1st Trax", "1st", "Jeon Jun-Kyu", REGULAR_SONG, SHORT_MIX],
+	[1, "Yes Yes",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "r2go-LVWJSU", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
+	[1, "You live the life you live",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "bM8VK_xb0xw", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Ztar warZ",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "l1DB8GITfWg", "1st Trax", "1st", "DJ. Melong", REGULAR_SONG, SHORT_MIX],
 	
-	// Portable 1
+	
+	// Special Edition
 	[1, "A.I",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "6-N2540l3ZI", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
 	[1, "Ask to wind",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "3O6xcMWjtYM", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
 	[1, "Ask to wind Live Mix",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "QLzjSV-TBmc", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
