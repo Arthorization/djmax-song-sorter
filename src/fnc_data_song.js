@@ -173,7 +173,7 @@ var ary_SongData = [
 	[1, "Y-Gate",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/k2ceAZBZW1U/hqdefault.jpg", "1CGzQDyyZOk", "3rd Trax", "3rd", "Lee Jong-Phil", REGULAR_SONG, SHORT_MIX],
 		
 	
-	// 4th Trax (Recheck Composers)
+	// 4th Trax 
 	[1, "Aquaris",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "B.O.W.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "Blue",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
@@ -184,26 +184,109 @@ var ary_SongData = [
 	[1, "Eye of the Beholder",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "Feel so Sad",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
 	[1, "Fire Storm",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Futurist",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Go!",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Futurist",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Go!",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	[1, "J.M.J.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Judgement",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Lovely Day",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Judgement",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Lovely Day",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	[1, "Mad Robot",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Metagalactic",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Ready to Yah",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Metagalactic",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Ready to Yah",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
 	[1, "Shout",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Tokyo 9 PM",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Tokyo 9 PM",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	
 	// Platinum
-	[1, "ANALYS",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "Y8GOUA747Ig", "Respect", "DMR", "HAYAKO", REGULAR_SONG, SHORT_MIX],
+	[1, "Any way you want it",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "Aquaris (Physical Inspiration Hyper Blue Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "Cellauve",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "I've fallen (Hot Dog Boogie Groove Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "I've got this feeling (DJ. FE Restless Acid Soul Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "J.M.J. (DFC Space Gear Re-Formation)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "Memories",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Night Madness",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Joyrock", REGULAR_SONG, SHORT_MIX],
+	[1, "Panic Strike",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Q Factor",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Riff Guy",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "Spotlight",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Unknown H2",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "BIGDUCK", REGULAR_SONG, SHORT_MIX],
+	[1, "Weird Wave",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Joyrock", REMIXED_SONG, SHORT_MIX],
+	[1, "Zeroize",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "느낌",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus, Kang Eun Soo", REGULAR_SONG, SHORT_MIX],
 	
 	// 6th Trax
-	[1, "Do you want it",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "4psK3x42jrg", "Respect", "DMR", "House Rulez / Kali", REGULAR_SONG, SHORT_MIX],
+	[1, "Baby Dance (Club Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Bacardi on the Beach",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sonic A.P.E", REGULAR_SONG, SHORT_MIX],
+	[1, "Be Mine",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "TY:F", REGULAR_SONG, SHORT_MIX],
+	[1, "Be my Baby (Funky Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Be-at Feedback",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "B-E", REGULAR_SONG, SHORT_MIX],
+	[1, "The Boy (EK2-Beat Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Curse It!!",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Han Tae-Soo", REGULAR_SONG, SHORT_MIX],
+	[1, "Dance Machine",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sonic A.P.E", REGULAR_SONG, SHORT_MIX],
+	[1, "Dance With Me",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Kim Min", REGULAR_SONG, SHORT_MIX],
+	[1, "Frantic",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sonic A.P.E", REGULAR_SONG, SHORT_MIX],
+	[1, "I've got this feeling (Extended Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REGULAR_SONG, EXTENDED_MIX],
+	[1, "Jam (A.C Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Lie Lie (Ceave Beat Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Move Your Body",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sean Kim", REGULAR_SONG, SHORT_MIX],
+	[1, "One Two Three Four",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sonic A.P.E", REGULAR_SONG, SHORT_MIX],
+	[1, "Refresh",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Kim Min", REGULAR_SONG, SHORT_MIX],
+	[1, "Stay with Me",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Han Tae-Soo", REGULAR_SONG, SHORT_MIX],
+	[1, "Up and Down",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Soulzean", REGULAR_SONG, SHORT_MIX],
+	[1, "With U Girl(Beach Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REGULAR_SONG, SHORT_MIX],
+	[1, "You were the one",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Kim Min", REGULAR_SONG, SHORT_MIX],
+	[1, "Your Style",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "DaKick", REGULAR_SONG, SHORT_MIX],
+	[1, "느낌 (Sonic A.P.E Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Sonic A.P.E", REGULAR_SONG, SHORT_MIX],
+	[1, "Changa II",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Han Tae-Soo", REGULAR_SONG, SHORT_MIX],
 	
 	// 7th Trax
-	[1, "End of Mythology",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "G3aRgjqL_I8", "Respect", "DMR", "Alice Schach and the Magic Orchestra", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
+        [1, "An Old Story",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "G3aRgjqL_I8", "7th Trax", "7th", "Memme", REGULAR_SONG, SHORT_MIX],
 
+	
+	
+	
+	
+	
 	// EZ2ON 2008
 	[1, "ALiCE",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg", "s8W2A7GVQ54", "Respect", "DMR", "seibin", REGULAR_SONG, SHORT_MIX],
 			
@@ -213,15 +296,15 @@ var ary_SongData = [
 	// EZ2ON 2021
 	[1, "Attack",								[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1080550/capsule_616x353.jpg", "0Lt2NERKgG4", "V Extension", "VE", "Mr.Funky", REGULAR_SONG, SHORT_MIX],
 	
-	// Dok2 - Only On
+	// Time Traveler
 	[1, "Only On", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e02fdf812e9da9c76233ecddc3c", "BeNk6oN65dY", "Event", "DOK2", "Dok2 / HELIXX", REGULAR_SONG, SHORT_MIX],
 	
-	// Guilty Gear
+	// Codename Violet
 	[1, "Break a Spell",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Guilty Gear", "GG", "Daisuke Ishiwatari / Norichika Sato", REGULAR_SONG, SHORT_MIX],
 	[1, "Holy Orders (Be Just Or Be Dead)",	[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "SMIXv7WuCZ4", "Guilty Gear", "GG", "Daisuke Ishiwatari / Norichika Sato", REGULAR_SONG, SHORT_MIX],
 	[1, "Marionette",						[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "4RYTgFia0RU", "Guilty Gear", "GG", "Daisuke Ishiwatari / Norichika Sato", REGULAR_SONG, SHORT_MIX],
 	
-	// Girls' Frontline
+	// Prestige Pass
 	[1, "Barbarous Funera",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "DA9OlHVHRK0", "Girls' Frontline", "GF", "Rikako Watanabe", REGULAR_SONG, SHORT_MIX],
 	[1, "Frontline",				[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "RH_8HOfRmp4", "Girls' Frontline", "GF", "B@kamin / M2U", REGULAR_SONG, SHORT_MIX],
 	[1, "What am I fighting for?",	[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "IOGxyC_Dar0", "Girls' Frontline", "GF", "Haloweak", REGULAR_SONG, SHORT_MIX],
