@@ -65,9 +65,9 @@ const TRACK_ARTIST = 7;
 // 8: Track type - regular song, V exclusive, link disc
 const TRACK_TYPE = 8;
 	const REGULAR_SONG = 1;
-	const V_EXCLUSIVE = 2;
-	const LINK_DISC = 3;
-	const V_LINK = 4;
+	const REMIXED_SONG = 2;
+	const EXTERIOR_GAME = 3;
+
 // 9: Extended Mix type - short, extended
 const EXTENDED_TYPE = 9;
 	const SHORT_MIX = 1;
@@ -89,7 +89,7 @@ var ary_SongData = [
 	[1, "Let it Go",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "r2go-LVWJSU", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Look Out",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "bM8VK_xb0xw", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Minus 1",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "l1DB8GITfWg", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
-	[1, "Minus 1 (HD Mix)",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "14B7fXJMlBQ", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
+	[1, "Minus 1 (HD Mix)",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "14B7fXJMlBQ", "1st Trax", "1st", "Danmal_G", REMIXED_SONG, SHORT_MIX],
 	[1, "Mystic Dream 9903",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "31XJhQAn6EA", "1st Trax", "1st", "Danmal_G", REGULAR_SONG, SHORT_MIX],
 	[1, "Quake in Kyoto",								[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "The Rhythm",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "1LBOx8-6nB0", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
@@ -101,64 +101,28 @@ var ary_SongData = [
 	
 	
 	// Special Edition
-	[1, "A.I",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "6-N2540l3ZI", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Ask to wind",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "3O6xcMWjtYM", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Ask to wind Live Mix",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "QLzjSV-TBmc", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Astro Fight",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "nc83_WNzh7Q", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "BlythE",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "dxHKaYQLGh4", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Bright Dream",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Zknxc0Vu6bc", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Can We Talk",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "MpwaDlL7EMY", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Catch Me",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XLuR_BSEFy0", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Chrono Breakers",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "ZG6sCpMGUpA", "Portable 1", "DMP1", "NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "CnP",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "_bTes9yW-NI", "Portable 1", "DMP1", "CrooFE", REGULAR_SONG, SHORT_MIX],
-	[1, "Dreadnought",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "UbNXGbfzyRg", "Portable 1", "DMP1", "EarBreaker", REGULAR_SONG, SHORT_MIX],
-	[1, "Elastic STAR",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "E9XngEQWmVI", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "End of the Moonlight",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Xt7RnmON1hQ", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Enemy Storm",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "nWTcMWaXs9E", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Eternal Memory",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "D6c6uWDCoGA", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Every Morning",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "GaLuc56wHi8", "Portable 1", "DMP1", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Extreme Z4",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XpjLfOYZzTs", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Fear",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "cbpvPi8uzYY", "Portable 1", "DMP1", "Supbaby", REGULAR_SONG, SHORT_MIX],
-	[1, "Fever GJ",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "nmzr1msnP1Y", "Portable 1", "DMP1", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "FTR",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "A1Gq9rCDFpI", "Portable 1", "DMP1", "Supbaby", REGULAR_SONG, SHORT_MIX],
-	[1, "Funky Chups",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "zyQz9IYwhvg", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Futurism",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "-h996akPq94", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "HAMSIN",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "hM-i6rymY-4", "Portable 1", "DMP1", "makou", REGULAR_SONG, SHORT_MIX],
-	[1, "JBG",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "kbybNLDOa54", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Jupiter Driving",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "fVrTZQcJ0X8", "Portable 1", "DMP1", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "KUDA",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "dlD41j7k4P8", "Portable 1", "DMP1", "GonZo", REGULAR_SONG, SHORT_MIX],
-	[1, "Lemonade",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Pavz3aeW6f4", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Let's Go Baby",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "rHV0MqxKsvg", "Portable 1", "DMP1", "3rd Coast", REGULAR_SONG, SHORT_MIX],
-	[1, "Light House",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "df4Ht86LLXw", "Portable 1", "DMP1", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Long Vacation",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "TinlV7V0-hk", "Portable 1", "DMP1", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "Luv Flow",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "beSy9KsXpDw", "Portable 1", "DMP1", "3rd Coast", REGULAR_SONG, SHORT_MIX],
-	[1, "MASAI",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Z4EzMcX0iR8", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Memory of Beach",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "WQyMflllgcM", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Minimal Life",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "DdEmEkajJlQ", "Portable 1", "DMP1", "EarBreaker", REGULAR_SONG, SHORT_MIX],
-	[1, "NB RANGER",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "lDCzr69QALY", "Portable 1", "DMP1", "M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Never Say",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "ghLCHAHv-VY", "Portable 1", "DMP1", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Oblivion",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "R35SKGqAtSw", "Portable 1", "DMP1", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "Oblivion ~Rockin' Night Style~",	[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XoCTa8Y7m70", "Portable 1", "DMP1", "ESTi / NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "ON",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Hwki9hD2Aqc", "Portable 1", "DMP1", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "One the Love",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XiTrMesOaA4", "Portable 1", "DMP1", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Outlaw",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "JPH_H2Su_0s", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Para-Q",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "D2y9blB5h00", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Piano Concerto No. 1",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Rrpqaku-ucw", "Portable 1", "DMP1", "WavFactory", REGULAR_SONG, SHORT_MIX],
-	[1, "Ray of Illuminati",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "QndxxJUA_p0", "Portable 1", "DMP1", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "RED",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "kgfyv5Ttg5w", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Revenge",							[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XopM46jREGk", "Portable 1", "DMP1", "ND Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Road of Death",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "XG_1iwH8Xzk", "Portable 1", "DMP1", "NieN", REGULAR_SONG, SHORT_MIX],
-	[1, "Rock or Die",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "JExIWugzLtg", "Portable 1", "DMP1", "NieN / M2U", REGULAR_SONG, SHORT_MIX],
-	[1, "Save My Dream",					[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "Ucocsz2vuQE", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "SIN",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "umbdO4DjUnc", "Portable 1", "DMP1", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "SIN ~The Last Scene~",				[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "kuDU3WP_Guo", "Portable 1", "DMP1", "ESTi", REGULAR_SONG, SHORT_MIX],
-	[1, "Sunny Side",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "TpYm2mm8BLc", "Portable 1", "DMP1", "Croove", REGULAR_SONG, SHORT_MIX],
-	[1, "Sunny Side ~Deepn' Soul Mix~",		[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "csxLGwQaRYg", "Portable 1", "DMP1", "Croove / makou", REGULAR_SONG, SHORT_MIX],
-	[1, "Temptation",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "9qtK26x7fMA", "Portable 1", "DMP1", "S-TRO / Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Triple Zoe",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "BXYJ1gr_iZg", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Ya! Party!",						[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable1_500.jpg", "klbmtP8wDnA", "Portable 1", "DMP1", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-
-	// Portable 2
+	[1, "Catch the Flow (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Creatune", REMIXED_SONG, SHORT_MIX],
+	[1, "Combonation",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Kim Jin Kwon", REGULAR_SONG, SHORT_MIX],
+	[1, "Confete (Evening Mix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Dieoxin",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "DJ. Yonda", REGULAR_SONG, SHORT_MIX],
+	[1, "Do You Remember? (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Remix Station", REMIXED_SONG, SHORT_MIX],
+	[1, "Envy Mask (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "xxdbxx", REMIXED_SONG, SHORT_MIX],
+	[1, "For 3 Weeks",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Lee So-eun", REGULAR_SONG, SHORT_MIX],
+	[1, "The Future",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Remix Station", REGULAR_SONG, SHORT_MIX],
+	[1, "Let it Go (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Ruby Tuesday", REMIXED_SONG, SHORT_MIX],
+	[1, "Love & Ectasy",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Baby Vox", REGULAR_SONG, SHORT_MIX],
+	[1, "My Honey",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Lee Seung-Hwan", REGULAR_SONG, SHORT_MIX],
+	[1, "Mystic Dream 9903 (Horror Mix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Danmal_G", REMIXED_SONG, SHORT_MIX],
+	[1, "Quake in Kyoto (Mega Mix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "xxdbxx", REMIXED_SONG, SHORT_MIX],
+	[1, "R.D.M.",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Red Hot",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "DR. YONDA", REGULAR_SONG, SHORT_MIX],
+	[1, "The Rhythm (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Creatune", REMIXED_SONG, SHORT_MIX],
+	[1, "Special K",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Stay (Radio Edit)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Jeon Jun-Kyu", REMIXED_SONG, SHORT_MIX],
+	[1, "You live the life you love (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "Itdie", REMIXED_SONG, SHORT_MIX],
+	[1, "Ztar warZ (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "6-N2540l3ZI", "Special Edition", "S/E", "xxdbxx", REMIXED_SONG, SHORT_MIX],
+	
+	// 2nd Trax
 	[1, "A Lie",				[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable2_500.jpg", "zxe6gk_HXO8", "Portable 2", "DMP2", "makou", REGULAR_SONG, SHORT_MIX],
 	[1, "Another DAY",			[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable2_500.jpg", "PZt2bOhoxX8", "Portable 2", "DMP2", "Forte Escape", REGULAR_SONG, SHORT_MIX],
 	[1, "Brain Storm",			[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://www.arcsystemworks.jp/portal/wordpress/wp-content/uploads/2017/10/Portable2_500.jpg", "GGi5sKXt7YM", "Portable 2", "DMP2", "Croove", REGULAR_SONG, SHORT_MIX],
