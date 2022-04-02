@@ -18,6 +18,8 @@
 // 2018/11/26 Added to relick's github, changes tracked there
 // 2021/03/26 Adapted to DJMAX Respect songs by shockdude
 // github.com/shockdude/djmax-song-sorter
+// 2022/04/02 Adapted to EZ2ON REBOOT R songs by Arthor
+//github.com/Arthorization/ez2on-song-sorter
 
 // Execution code
 var ary_TempData	= new Array();
