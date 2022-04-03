@@ -160,8 +160,7 @@ function init()
 {
 	int_Total = 0;
 	int_RecordID = 0;
-	var extendedMixes = getID('optExtendedMix').checked;
-	var shuffleSongs = getID('optShuffleSongs').checked;
+	
 
 	// Add to the arrays only the tracks that we expect.
 	for (i=0; i < ary_SongData.length; i++)
