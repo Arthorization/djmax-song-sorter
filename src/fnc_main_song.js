@@ -158,9 +158,14 @@ function shuffle(array) {
 // * Only happens once
 function init()
 {
+
+	
 	int_Total = 0;
 	int_RecordID = 0;
-	
+	var vExclusive = getID('optVExclusive').checked;
+	var extendedMixes = getID('optExtendedMix').checked;
+	var obeyLinkDisc = getID('optObeyLinkDisc').checked;
+	var shuffleSongs = getID('optShuffleSongs').checked;
 
 	// Add to the arrays only the tracks that we expect.
 	for (i=0; i < ary_SongData.length; i++)
@@ -170,16 +175,32 @@ function init()
 			if ((ary_SongData[i][TRACK_TITLES][j] == 1) && getID('optSelect' + j).checked)
 			{
 				// Link Disc Check
-				
+				if (!obeyLinkDisc || ary_SongData[i][TRACK_TYPE] !== LINK_DISC || 
+					(j !== LINK_CE && getID('optSelect' + LINK_CE).checked) ||
+					(j !== LINK_BS && getID('optSelect' + LINK_BS).checked) ||
+					(j !== LINK_T1 && getID('optSelect' + LINK_T1).checked))
+				{
 					// V Link Check
-					
-						
-					
-				
+					if (!obeyLinkDisc || ary_SongData[i][TRACK_TYPE] !== V_LINK ||
+						(getID('optSelect' + LINK_V1).checked && getID('optSelect' + LINK_V2).checked))
+					{
+						// Include only if a track is:
+						// - In a title we selected (already fulfilled)
+						// - Not excluded by being the incorrect track type for what was selected
+						const correctVExclusive = vExclusive || (ary_SongData[i][TRACK_TYPE] !== V_EXCLUSIVE);
+						const correctExtendedMix = extendedMixes || (ary_SongData[i][EXTENDED_TYPE] !== EXTENDED_MIX);
+
+						if (correctVExclusive && correctExtendedMix)
+						{
+							ary_TempData[int_Total] = ary_SongData[i];
+							int_Total++;
+							break;
+						}
+					}
+				}
 			}
 		}
 	}
-
 	if (int_Total < 2)
 	{
 		alert("Please make a larger selection.");
@@ -195,7 +216,9 @@ function init()
 		getID('optSelect_all').disabled = true;
 		$('.opt_foot').hide();
 		getID('optImage').disabled = true;
+		getID('optVExclusive').disabled = true;
 		getID('optExtendedMix').disabled = true;
+		getID('optObeyLinkDisc').disabled = true;
 		getID('optShuffleSongs').disabled = true;
 		setClass(getID('optTable'), 'optTable-disabled');
 	}
