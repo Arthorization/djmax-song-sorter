@@ -170,7 +170,14 @@ function init()
 		{
 			if ((ary_SongData[i][TRACK_TITLES][j] == 1) && getID('optSelect' + j).checked)
 			{
-				
+			const correctExtendedMix = extendedMixes || (ary_SongData[i][EXTENDED_TYPE] !== EXTENDED_MIX);
+
+						if ( correctExtendedMix)
+						{
+							ary_TempData[int_Total] = ary_SongData[i];
+							int_Total++;
+							break;
+						}	
 				
 			}
 		}
