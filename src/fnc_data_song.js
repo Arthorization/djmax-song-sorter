@@ -65,7 +65,7 @@ const TRACK_ARTIST = 7;
 const TRACK_TYPE = 8;
 	const REGULAR_SONG = 1;
 	const REMIXED_SONG = 2;
-	const EXTERIOR_GAME = 3;
+	const EXTERIOR_SONG = 3;
 
 // 9: Extended Mix type - short, extended
 const EXTENDED_TYPE = 9;
