@@ -174,8 +174,8 @@ function init()
 				
 					// V Link Check
 					
-						}
-					}
+						
+					
 				}
 			}
 		}
