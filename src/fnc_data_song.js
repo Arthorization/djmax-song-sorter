@@ -73,7 +73,7 @@ const EXTENDED_TYPE = 9;
 	const EXTENDED_MIX = 2;
 
 var ary_SongData = [
-	//1st Trax
+	//1st Trax :)
 	[1, "Baby Dance",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "W0fuSVIFbx0", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Catch the Flow",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "DdQ6DKYiOnE", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
 	[1, "Confete",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "OJTQiVk4xFo", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
@@ -99,7 +99,7 @@ var ary_SongData = [
 	[1, "Ztar warZ",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/huKR2f0-wEQ/sddefault.jpg", "7quY1leNbY0", "1st Trax", "1st", "DJ. Melong", REGULAR_SONG, SHORT_MIX],
 	
 	
-	// Special Edition
+	// Special Edition :)
 	[1, "Catch the Flow (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "Yj-1zk9dFhU", "Special Edition", "S/E", "Creatune", REMIXED_SONG, SHORT_MIX],
 	[1, "Combonation",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "Vz6GQm787bo", "Special Edition", "S/E", "Kim Jin Kwon", REGULAR_SONG, SHORT_MIX],
 	[1, "Confete (Evening Mix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "o1zcQwSdsAg", "Special Edition", "S/E", "Itdie", REMIXED_SONG, SHORT_MIX],
