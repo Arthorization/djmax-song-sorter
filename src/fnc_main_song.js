@@ -96,9 +96,7 @@ function startup()
 	}
 
 	getID('optImage').disabled = false;
-	getID('optVExclusive').disabled = false;
 	getID('optExtendedMix').disabled = false;
-	getID('optObeyLinkDisc').disabled = false;
 	getID('optShuffleSongs').disabled = false;
 
 	var tbl_foot_Select = createElement('tfoot');
@@ -162,9 +160,7 @@ function init()
 {
 	int_Total = 0;
 	int_RecordID = 0;
-	var vExclusive = getID('optVExclusive').checked;
 	var extendedMixes = getID('optExtendedMix').checked;
-	var obeyLinkDisc = getID('optObeyLinkDisc').checked;
 	var shuffleSongs = getID('optShuffleSongs').checked;
 
 	// Add to the arrays only the tracks that we expect.
