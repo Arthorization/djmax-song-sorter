@@ -352,7 +352,17 @@ var ary_SongData = [
 	[1, "PUPA",								[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1477590/header.jpg?t=1616605443", "0Lt2NERKgG4", "BMS", "2021", "モリモリあつし ", EXTERIOR_SONG, SHORT_MIX],
 	
 	// Time Traveler
-	[1, "Only On", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.scdn.co/image/ab67616d00001e02fdf812e9da9c76233ecddc3c", "BeNk6oN65dY", "Event", "DOK2", "Dok2 / HELIXX", REGULAR_SONG, SHORT_MIX],
+	[1, "#BEYOND", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "lyDHBLqvA3k", "Time Traveler", "TT", "Roy C. vs Transin", REGULAR_SONG, SHORT_MIX],
+	[1, "Black Sour Ruby", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "W3WBXTe8A-w", "Time Traveler", "TT", "Cosine", REGULAR_SONG, SHORT_MIX],
+	[1, "#Ctrl+Alt+Del", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "6wMHoGPFqjc", "Time Traveler", "TT", "Roy Mikelate", REGULAR_SONG, SHORT_MIX],
+	[1, "Darker than Black", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "dPSYA3fAxSA", "Time Traveler", "TT", "Springhead", REGULAR_SONG, SHORT_MIX],
+	[1, "Encounter on Orbit", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "KKdUCN3ILh0", "Time Traveler", "TT", "Aresynth", REGULAR_SONG, SHORT_MIX],
+	[1, "Guardian", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "rnosJ9Fo6II", "Time Traveler", "TT", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
+	[1, "Hi-Tech Soda Machine", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "CGWzG73SD4o", "EZ2ON RR", "TT", "M0DDRA1D", REGULAR_SONG, SHORT_MIX],
+	[1, "Last Knot", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "AzXruNXsUWU", "Time Traveler", "TT", "Sobrem", REGULAR_SONG, SHORT_MIX],
+	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "IFHIYDXRxX0", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
+	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
+	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
 	// Codename Violet
 	[1, "Break a Spell",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Guilty Gear", "GG", "Daisuke Ishiwatari / Norichika Sato", REGULAR_SONG, SHORT_MIX],
