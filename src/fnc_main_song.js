@@ -98,6 +98,7 @@ function startup()
 	getID('optImage').disabled = false;
 	getID('optExtendedMix').disabled = false;
 	getID('optShuffleSongs').disabled = false;
+	getID('optRemoveExterior').disabled = false;
 
 	var tbl_foot_Select = createElement('tfoot');
 	tbl_Select.appendChild(tbl_foot_Select);
@@ -164,6 +165,7 @@ function init()
 	int_RecordID = 0;
 	var extendedMixes = getID('optExtendedMix').checked;
 	var shuffleSongs = getID('optShuffleSongs').checked;
+	var exteriorSongs = getID('optRemoveExterior').checked;
 
 // Add to the arrays only the tracks that we expect.
 	for (i=0; i < ary_SongData.length; i++)
@@ -173,6 +175,7 @@ function init()
 			if ((ary_SongData[i][TRACK_TITLES][j] == 1) && getID('optSelect' + j).checked)
 			{
 			const correctExtendedMix = extendedMixes || (ary_SongData[i][EXTENDED_TYPE] !== EXTENDED_MIX);
+			const correctExterior = exteriorSongs || (ary_SongData[i][TRACK_TYPE] !== EXTERIOR_SONGS);
 
 						if ( correctExtendedMix)
 						{
