@@ -121,7 +121,7 @@ var ary_SongData = [
 	[1, "You live the life you love (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "x86F_bVqjeU", "Special Edition", "S/E", "Itdie", REMIXED_SONG, SHORT_MIX],
 	[1, "Ztar warZ (Remix)",								[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EIZ_NW0Mhpo/maxresdefault.jpg", "OHSSmnHAnRY", "Special Edition", "S/E", "xxdbxx", REMIXED_SONG, SHORT_MIX],
 	
-	// 2nd Trax
+	// 2nd Trax :)
 	[1, "Anytime",				[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/bVk29Uksj5Q/maxresdefault.jpg", "X2r5Bo8Fkuw", "2nd Trax", "2nd", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Appeal",				[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/bVk29Uksj5Q/maxresdefault.jpg", "M3dcumo8ISI", "2nd Trax", "2nd", "Andy Lee, Jennifer", REGULAR_SONG, SHORT_MIX],
 	[1, "Back for More",				[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/bVk29Uksj5Q/maxresdefault.jpg", "1vy52s2YdeQ", "2nd Trax", "2nd", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
@@ -196,22 +196,22 @@ var ary_SongData = [
 	[1, "Tokyo 9 PM",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "ahdGgpeQVfg", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	
 	// Platinum
-	[1, "Any way you want it",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
-	[1, "Aquaris (Physical Inspiration Hyper Blue Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
-	[1, "Cellauve",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
-	[1, "I've fallen (Hot Dog Boogie Groove Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "I've got this feeling (DJ. FE Restless Acid Soul Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
-	[1, "J.M.J. (DFC Space Gear Re-Formation)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
-	[1, "Memories",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Night Madness",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Joyrock", REGULAR_SONG, SHORT_MIX],
-	[1, "Panic Strike",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Q Factor",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Riff Guy",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
-	[1, "Spotlight",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "Unknown H2",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "BIGDUCK", REGULAR_SONG, SHORT_MIX],
-	[1, "Weird Wave",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Joyrock", REMIXED_SONG, SHORT_MIX],
-	[1, "Zeroize",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
-	[1, "느낌",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "Y8GOUA747Ig", "Platinum", "PT", "Eridanus, Kang Eun Soo", REGULAR_SONG, SHORT_MIX],
+	[1, "Any way you want it",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "J2zizFKUcI0", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "Aquaris (Physical Inspiration Hyper Blue Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "eS4lY15xlCk", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "Cellauve",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "0L6jXbd8N-g", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "I've fallen (Hot Dog Boogie Groove Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "P35z0WyQDq0", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "I've got this feeling (DJ. FE Restless Acid Soul Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "mRBk8e9s8GE", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "J.M.J. (DFC Space Gear Re-Formation)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "QnwDrawvKf0", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
+	[1, "Memories",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "-a5Btg35WcE", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Night Madness",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "CzFiLMRs_rk", "Platinum", "PT", "Joyrock", REGULAR_SONG, SHORT_MIX],
+	[1, "Panic Strike",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "hFey7YUoOQE", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Q Factor",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "hbKRWLOM-sI", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Riff Guy",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "x7gc2yBqwA8", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
+	[1, "Spotlight",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "yBGU_mp1qWc", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "Unknown H2",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "pIbE7tA2sKM", "Platinum", "PT", "BIGDUCK", REGULAR_SONG, SHORT_MIX],
+	[1, "Weird Wave",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "sN16te_RZBA", "Platinum", "PT", "Joyrock", REMIXED_SONG, SHORT_MIX],
+	[1, "Zeroize",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "9roXfejoFhs", "Platinum", "PT", "Forte Escape", REGULAR_SONG, SHORT_MIX],
+	[1, "느낌",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "vJpSpUJjeJ8", "Platinum", "PT", "Eridanus, Kang Eun Soo", REGULAR_SONG, SHORT_MIX],
 	
 	// 6th Trax
 	[1, "Baby Dance (Club Ver.)",				[0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/ZSGRwp-gov4/maxresdefault.jpg", "4psK3x42jrg", "6th Trax", "6th", "Itdie", REMIXED_SONG, SHORT_MIX],
