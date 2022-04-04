@@ -305,7 +305,7 @@ var ary_SongData = [
 	[1, "Aura",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "gKXs2BAJ8Sg", "7th Trax 2.0", "2013", "yak_won", REGULAR_SONG, SHORT_MIX],
 	[1, "Common Story",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "izckf0QMdAg", "EZ2ON REBOOT", "2013", "Happy Jackson", REGULAR_SONG, SHORT_MIX],
 	[1, "Digital Labyrinth",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "dQuyMWNci1E", "EZ2ON REBOOT", "2013", "nato", REGULAR_SONG, SHORT_MIX],
-	[1, "Frozen Eyes",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "bv72HeDd-Gg "Azure Expression", "2013", "fromsmk", REGULAR_SONG, SHORT_MIX],
+	[1, "Frozen Eyes",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "bv72HeDd-Gg", "Azure Expression", "2013", "fromsmk", REGULAR_SONG, SHORT_MIX],
 	[1, "Infinity",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "dwpd6CZoY0w", "EZ2ON REBOOT", "2013", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
 	[1, "Kamui",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "Wx7dBGLLrVo", "Codename Violet", "2013", "TJ. Hangneil", REGULAR_SONG, SHORT_MIX],
 	[1, "Lucid",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://t1.daumcdn.net/cfile/tistory/995CA8375F0B4CBA02", "v_7_F8eYYvY", "7th Trax 1.5", "2013", "yak_won", REGULAR_SONG, SHORT_MIX],
