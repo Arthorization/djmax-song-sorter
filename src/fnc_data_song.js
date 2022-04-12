@@ -173,29 +173,29 @@ var ary_SongData = [
 	[1, "Y-Gate",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748966620397578/YGate4.png", "eoYP3n1O7uA", "3rd Trax", "3rd", "Lee Jong-Phil", REGULAR_SONG, SHORT_MIX],
 		
 	
-	// 4th Trax :)
-	[1, "Aquaris",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "WZyeUS6TcVA", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "B.O.W.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "g58JY4n7k38", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Blue",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "nxbAB_EdOIw", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Calling me Now",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "s4k2S9LZWDg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Climax",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "_HL-rHZXI78", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Complex",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "K0A77LG9noM", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Delight",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "MgCuP87LFnI", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Eye of the Beholder",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "wIlcpd_yA4k", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Feel so Sad",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "0ZaMPnJQZ2o", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Fire Storm",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "310fds69GdU", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Futurist",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "vgaHRZ01krw", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Go!",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "Ga47iBkA5lU", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "J.M.J.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "Ib403VUCUhc", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Judgement",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "Ipj0gk6G99M", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Lovely Day",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "pB92W9DT7ps", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
-	[1, "Angry Automaton",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "IUyUcswGMI8", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Metagalactic",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "MuJsFMR-oDE", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Ready to Yah",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "XIUIXh0H70M", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Shout",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "qLf1xhIWgzc", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
-	[1, "Tokyo 9 PM",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/EHY8nLuSrsg/maxresdefault.jpg", "IjVdTC9vGpM", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	// 4th Trax :D
+	[1, "Aquaris",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748170189185084/Aquaris4.png", "WZyeUS6TcVA", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "B.O.W.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748227626004560/BOW4.png", "g58JY4n7k38", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Blue",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748227370123316/Blue4.png", "nxbAB_EdOIw", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Calling me Now",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748228146077747/CallingMeNow4.png", "s4k2S9LZWDg", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Climax",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748245275615272/Climax4.png", "_HL-rHZXI78", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Complex",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748267329265664/Complex4.png", "K0A77LG9noM", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Delight",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748296093798420/Delight4.png", "MgCuP87LFnI", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Eye of the Beholder",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748492844404776/EyeOfBeholder4.png", "wIlcpd_yA4k", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Feel so Sad",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748491527417926/FeelSoSad4.png", "0ZaMPnJQZ2o", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Fire Storm",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748490566922310/FireStorm4.png", "310fds69GdU", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Futurist",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748528831561818/FuturistRemaster4.png", "vgaHRZ01krw", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Go!",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748523106304061/Go4.png", "Ga47iBkA5lU", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "J.M.J.",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748573840621588/JMJ4.png", "Ib403VUCUhc", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Judgement",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748574490726460/Judgment4.png", "Ipj0gk6G99M", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Lovely Day",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748588159963186/LovelyDayRemaster4_40852.png", "pB92W9DT7ps", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Angry Automaton",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748588810100816/MadRobot4_40558.png", "IUyUcswGMI8", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Metagalactic",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748590118731776/Metagalactic4.png", "MuJsFMR-oDE", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Ready to Yah",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748816153948180/ReadyToYah4_40469.png", "XIUIXh0H70M", "4th Trax", "4th", "xxdbxx", REGULAR_SONG, SHORT_MIX],
+	[1, "Shout",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748942176006144/Shout4.png", "qLf1xhIWgzc", "4th Trax", "4th", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "Tokyo 9 PM",					[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748962841350154/Tokyo9PM4.png", "IjVdTC9vGpM", "4th Trax", "4th", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	
-	// Platinum
+	// Platinum :)
 	[1, "Any way you want it",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "J2zizFKUcI0", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
 	[1, "Aquaris (Physical Inspiration Hyper Blue Mix)",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "eS4lY15xlCk", "Platinum", "PT", "Forte Escape", REMIXED_SONG, SHORT_MIX],
 	[1, "Cellauve",							[0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/7Jksr5Tvv_Y/maxresdefault.jpg", "0L6jXbd8N-g", "Platinum", "PT", "Eridanus", REGULAR_SONG, SHORT_MIX],
@@ -282,7 +282,7 @@ var ary_SongData = [
 	[1, "Faded Spirit",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "hojBoBmp9JY", "7th Trax", "7th", "Praya", REGULAR_SONG, SHORT_MIX],
         [1, "Cheonjigaebyouk",				[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/kWHKS-ya9nk/maxresdefault.jpg", "e-Uyb2n_Edw", "7th Trax", "7th", "M2U", REGULAR_SONG, SHORT_MIX],
 
-	// EZ2ON 2008
+	// EZ2ON 2008 :)
 	[1, "Black Industry",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://upload.wikimedia.org/wikipedia/commons/3/35/EZ2ON_logo.png", "VZZmfuO5KMo", "EZ2ON 2008", "2008", "r300k, ALTiTUNE", REGULAR_SONG, SHORT_MIX],
 	[1, "Black Industry (And More Rock Version)",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://upload.wikimedia.org/wikipedia/commons/3/35/EZ2ON_logo.png", "vyD7qYAsW2g", "EZ2ON 2008", "2008", "And More", REMIXED_SONG, SHORT_MIX],
 	[1, "Black Key",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://upload.wikimedia.org/wikipedia/commons/3/35/EZ2ON_logo.png", "rMEiqcuo22Y", "EZ2ON 2008", "2008", "Frederic Francois Chopin", REGULAR_SONG, SHORT_MIX],
@@ -351,18 +351,18 @@ var ary_SongData = [
 	[1, "MiLK",								[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1477590/header.jpg?t=1616605443", "2CJw_rihu5s", "BMS", "2021", "モリモリあつし ", EXTERIOR_SONG, SHORT_MIX],
 	[1, "PUPA",								[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1477590/header.jpg?t=1616605443", "wFW6qyZmQVw", "BMS", "2021", "モリモリあつし ", EXTERIOR_SONG, SHORT_MIX],
 	
-	// Time Traveler :)
-	[1, "#BEYOND", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "lyDHBLqvA3k", "Time Traveler", "TT", "Roy C. vs Transin", REGULAR_SONG, SHORT_MIX],
-	[1, "Black Sour Ruby", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "W3WBXTe8A-w", "Time Traveler", "TT", "Cosine", REGULAR_SONG, SHORT_MIX],
-	[1, "#Ctrl+Alt+Del", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "6wMHoGPFqjc", "Time Traveler", "TT", "Roy Mikelate", REGULAR_SONG, SHORT_MIX],
-	[1, "Darker than Black", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "dPSYA3fAxSA", "Time Traveler", "TT", "Springhead", REGULAR_SONG, SHORT_MIX],
-	[1, "Encounter on Orbit", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "KKdUCN3ILh0", "Time Traveler", "TT", "Aresynth", REGULAR_SONG, SHORT_MIX],
-	[1, "Guardian", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "rnosJ9Fo6II", "Time Traveler", "TT", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
-	[1, "Hi-Tech Soda Machine", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "CGWzG73SD4o", "EZ2ON RR", "TT", "M0DDRA1D", REGULAR_SONG, SHORT_MIX],
-	[1, "Last Knot", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "AzXruNXsUWU", "Time Traveler", "TT", "Sobrem", REGULAR_SONG, SHORT_MIX],
-	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "IFHIYDXRxX0", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
-	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
-	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://i.ytimg.com/vi/5fuLXtddgzU/maxresdefault.jpg", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
+	// Time Traveler :D
+	[1, "#BEYOND", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748207937921044/Beyond4.png", "lyDHBLqvA3k", "Time Traveler", "TT", "Roy C. vs Transin", REGULAR_SONG, SHORT_MIX],
+	[1, "Black Sour Ruby", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748226799702016/BlackSourRuby4.png", "W3WBXTe8A-w", "Time Traveler", "TT", "Cosine", REGULAR_SONG, SHORT_MIX],
+	[1, "#Ctrl+Alt+Del", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748265328574534/CtrlAltDel4.png", "6wMHoGPFqjc", "Time Traveler", "TT", "Roy Mikelate", REGULAR_SONG, SHORT_MIX],
+	[1, "Darker than Black", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748294827122688/DarkerThanBlack4.png", "dPSYA3fAxSA", "Time Traveler", "TT", "Springhead", REGULAR_SONG, SHORT_MIX],
+	[1, "Encounter on Orbit", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748478025945138/EncounterOnOrbit4.png", "KKdUCN3ILh0", "Time Traveler", "TT", "Aresynth", REGULAR_SONG, SHORT_MIX],
+	[1, "Guardian", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748591536386119/Guardian4.png", "rnosJ9Fo6II", "Time Traveler", "TT", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
+	[1, "Hi-Tech Soda Machine", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748591993552926/HitechSodaMachine4.png", "CGWzG73SD4o", "EZ2ON RR", "TT", "M0DDRA1D", REGULAR_SONG, SHORT_MIX],
+	[1, "Last Knot", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748590231945216/LastKnot4_34557.png", "AzXruNXsUWU", "Time Traveler", "TT", "Sobrem", REGULAR_SONG, SHORT_MIX],
+	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748786399576064/PrecisionStrike4.png", "IFHIYDXRxX0", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
+	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748941202927666/Skyline4.png", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
+	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748964561027112/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
 	// Codename Violet
 	[1, "Break a Spell",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Guilty Gear", "GG", "Daisuke Ishiwatari / Norichika Sato", REGULAR_SONG, SHORT_MIX],
