@@ -391,7 +391,7 @@ var ary_SongData = [
 	[1, "MAX301",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "ocGreDEMIRs", "Prestige Pass", "PP", "NAOKI underground -Ω-", REGULAR_SONG, SHORT_MIX],
 	[1, "Unleashed Emotions",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "448Ggds9ZiU", "Prestige Pass", "PP", "TAG", REGULAR_SONG, SHORT_MIX],
 	[1, "felys -final remix-",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "kg-V_uQYZLY", "Prestige Pass", "PP", "onoken", REGULAR_SONG, SHORT_MIX],
-	[1, "TRPNO",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "UIGaDH9DsGE", "Prestige Pass", "PP", "Nauts", REGULAR_SONG, SHORT_MIX],
+	[1, "TRPNO",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "ty2jyqa-k1o", "Prestige Pass", "PP", "Nauts", REGULAR_SONG, SHORT_MIX],
 	
 	// Groove Coaster
 	[1, "Black MInD",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1271671/capsule_616x353.jpg", "_7iEZimewKE", "Groove Coaster", "GC", "COSIO", REGULAR_SONG, SHORT_MIX],
