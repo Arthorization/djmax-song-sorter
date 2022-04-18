@@ -74,8 +74,8 @@ const EXTENDED_TYPE = 9;
 
 var ary_SongData = [
 	//1st Trax :DD
-	[1, "Baby Dance",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357609223868456/BabyDance4.png", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
-	[1, "Catch the Flow",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357609467142205/CatchTheFlow4.png", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
+	[1, "Baby Dance",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357609223868456/BabyDance4.png", "W0fuSVIFbx0", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "Catch the Flow",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357609467142205/CatchTheFlow4.png", "DdQ6DKYiOnE", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
 	[1, "Confete",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357609978851369/Confete4.png", "OJTQiVk4xFo", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Dirty D",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357610389880963/DirtyD4.png", "gML5ef9eX88", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Do you Remember?",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965357610675101756/DoYouRemember4.png", "6zwWLM5pb3o", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
@@ -95,7 +95,7 @@ var ary_SongData = [
 	[1, "Southwest Cadillac",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358033993596928/SouthwestCadillac4.png", "ldeCGYPS0Wg", "1st Trax", "1st", "Jeon Jun-Kyu", REGULAR_SONG, SHORT_MIX],
 	[1, "Stay",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358034190757898/StayRemaster4_36294.png", "0dDRNWS0rTY", "1st Trax", "1st", "Jeon Jun-Kyu", REGULAR_SONG, SHORT_MIX],
 	[1, "Yes Yes",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358074556735588/YesYes4.png", "uffQ2Mdl9m4", "1st Trax", "1st", "Creatune", REGULAR_SONG, SHORT_MIX],
-	[1, "You live the life you live",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358074804187166/Reggae4.png", "7quY1leNbY0", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
+	[1, "You live the life you live",									[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358074804187166/Reggae4.png", "laxr42FX3z8", "1st Trax", "1st", "Ruby Tuesday", REGULAR_SONG, SHORT_MIX],
 	[1, "Ztar warZ",							[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965358075026472960/ZtarWarz4.png", "7quY1leNbY0", "1st Trax", "1st", "DJ. Melong", REGULAR_SONG, SHORT_MIX],
 	
 	
