@@ -364,17 +364,17 @@ var ary_SongData = [
 	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748941202927666/Skyline4.png", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
 	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748964561027112/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
-	// Codename Violet
-	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
-	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
-	[1, "Blood Castle (Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "M2U x TAK", REGULAR_SONG, SHORT_MIX],
-	[1, "Doll's Garden",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "Memme", REGULAR_SONG, SHORT_MIX],
-	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
-	[1, "Le Grand Bleu",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
-	[1, "LOKI",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
-	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
-	[1, "Tempus Praeterita",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
-	[1, "War of Roses, 1455",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "_kK3J0052pU", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
+	// Codename Violet :)
+	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "RPnzhgZZ_pE", "Codename Violet", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
+	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "zHDTjn6BRk4", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
+	[1, "Blood Castle (Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "LvLppFzL7j4", "Codename Violet", "CV", "M2U x TAK", REGULAR_SONG, SHORT_MIX],
+	[1, "Doll's Garden",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "Xobxe24Xhh4", "Codename Violet", "CV", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "eCJgjbqwxA8", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
+	[1, "Le Grand Bleu",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "C251xloBjOc", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
+	[1, "LOKI",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "ZKHDL_h7pMY", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
+	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "Fm0Wt7-oz0A", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
+	[1, "Tempus Praeterita",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "7RLnzLSxgjQ", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
+	[1, "War of Roses, 1455",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "DsC10SjPDgQ", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
 	
 	// Prestige Pass !!
 	[1, "Stay 2022",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1472191/capsule_616x353.jpg", "Lsu1gjQ1Dyw", "Prestige Pass", "PP", "Jeon Jun Kyu & Scott Mac", REGULAR_SONG, SHORT_MIX],
