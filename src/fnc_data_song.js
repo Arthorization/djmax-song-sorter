@@ -360,7 +360,7 @@ var ary_SongData = [
 	[1, "Guardian", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748591536386119/Guardian4.png", "rnosJ9Fo6II", "Time Traveler", "TT", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
 	[1, "Hi-Tech Soda Machine", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748591993552926/HitechSodaMachine4.png", "CGWzG73SD4o", "EZ2ON RR", "TT", "M0DDRA1D", REGULAR_SONG, SHORT_MIX],
 	[1, "Last Knot", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748590231945216/LastKnot4_34557.png", "AzXruNXsUWU", "Time Traveler", "TT", "Sobrem", REGULAR_SONG, SHORT_MIX],
-	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748786399576064/PrecisionStrike4.png", "IFHIYDXRxX0", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
+	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748786399576064/PrecisionStrike4.png", "sVZKz9u68is", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
 	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748941202927666/Skyline4.png", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
 	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748964561027112/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
@@ -372,7 +372,7 @@ var ary_SongData = [
 	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "eCJgjbqwxA8", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
 	[1, "Le Grand Bleu",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "C251xloBjOc", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
 	[1, "LOKI",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "ZKHDL_h7pMY", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
-	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "Fm0Wt7-oz0A", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
+	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "Rnavm9-gVuY", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
 	[1, "Tempus Praeterita",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "7RLnzLSxgjQ", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
 	[1, "War of Roses, 1455",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "DsC10SjPDgQ", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
 	
