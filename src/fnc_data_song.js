@@ -365,8 +365,8 @@ var ary_SongData = [
 	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/961748964561027112/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
 	// Codename Violet :)
-	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "RPnzhgZZ_pE", "Codename Violet", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
-	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "zHDTjn6BRk4", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
+	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "RPnzhgZZ_pE", "Sabin Sound Star", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
+	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "zHDTjn6BRk4", "Bonus Edition", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
 	[1, "Blood Castle (Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "LvLppFzL7j4", "Codename Violet", "CV", "M2U x TAK", REGULAR_SONG, SHORT_MIX],
 	[1, "Doll's Garden",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "Xobxe24Xhh4", "Codename Violet", "CV", "Memme", REGULAR_SONG, SHORT_MIX],
 	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1281340/capsule_616x353.jpg", "eCJgjbqwxA8", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
