@@ -1,4 +1,4 @@
-﻿// 2008/7/3 Scripted by K-Factory@migiwa
+// 2008/7/3 Scripted by K-Factory@migiwa
 // 2009/1/27 Modified by K-Factory@migiwa
 // 2014/6/29 Modified by nkeronkow
 // 2018/11/26 Added to relick's github, changes tracked there
@@ -364,33 +364,33 @@ var ary_SongData = [
 	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372868366045244/Skyline4.png", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
 	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372871629225984/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
-	// Codename Violet :)
-	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "RPnzhgZZ_pE", "Sabin Sound Star", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
-	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "zHDTjn6BRk4", "Bonus Edition", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
-	[1, "Blood Castle (Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "LvLppFzL7j4", "Codename Violet", "CV", "M2U x TAK", REGULAR_SONG, SHORT_MIX],
-	[1, "Doll's Garden",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "Xobxe24Xhh4", "Codename Violet", "CV", "Memme", REGULAR_SONG, SHORT_MIX],
-	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "eCJgjbqwxA8", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
-	[1, "Le Grand Bleu",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "C251xloBjOc", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
-	[1, "LOKI",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "ZKHDL_h7pMY", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
-	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "Rnavm9-gVuY", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
-	[1, "Tempus Praeterita",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "7RLnzLSxgjQ", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
-	[1, "War of Roses, 1455",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://www.arcade-history.com/images/game/71322_1.png", "DsC10SjPDgQ", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
+	// Codename Violet :D
+	[1, "ApolloN",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967196778053128232/Apollon4.png", "RPnzhgZZ_pE", "Sabin Sound Star", "CV", "sun3", REGULAR_SONG, SHORT_MIX],
+	[1, "AtoMizer",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967196891848802314/Atomizer4.png", "zHDTjn6BRk4", "Bonus Edition", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
+	[1, "Blood Castle (Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197062028464138/BloodCastleRemix4_35989.png", "LvLppFzL7j4", "Codename Violet", "CV", "M2U x TAK", REGULAR_SONG, SHORT_MIX],
+	[1, "Doll's Garden",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197280144883722/DollsGarden4_35390.png", "Xobxe24Xhh4", "Codename Violet", "CV", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "Eraser Rain for GAIA",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197352702124043/EraserRainForGaia4.png", "eCJgjbqwxA8", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
+	[1, "Le Grand Bleu",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197851224522882/LeGrandBleu4_35358.png", "C251xloBjOc", "Codename Violet", "CV", "KIEN", REGULAR_SONG, SHORT_MIX],
+	[1, "LOKI",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197954974842990/Loki4.png", "ZKHDL_h7pMY", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
+	[1, "Stay (TAK Remix)",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198690123079720/StayTAKRemix4_41445.png", "Rnavm9-gVuY", "Codename Violet", "CV", "TAK", REMIXED_SONG, SHORT_MIX],
+	[1, "Tempus Praeterita",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198780556468234/TempusPraeterita4.png", "7RLnzLSxgjQ", "Codename Violet", "CV", "Ira", REGULAR_SONG, SHORT_MIX],
+	[1, "War of Roses, 1455",					[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198910361763860/WarsOfTheRoses4.png", "DsC10SjPDgQ", "Codename Violet", "CV", "Lotze", REGULAR_SONG, SHORT_MIX],
 	
-	// Prestige Pass !!
+	// Prestige Pass :)
 	[1, "Stay 2022",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "Lsu1gjQ1Dyw", "Prestige Pass", "PP", "Jeon Jun Kyu & Scott Mac", REGULAR_SONG, SHORT_MIX],
-	[1, "Belong To You",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "4CQHVxdBet4", "Prestige Pass", "PP", "Jeon Jun Kyu", REGULAR_SONG, SHORT_MIX],
+	[1, "Belong To You",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967197010165899344/BelongToYou4.png", "4CQHVxdBet4", "Prestige Pass", "PP", "Jeon Jun Kyu", REGULAR_SONG, SHORT_MIX],
 	[1, "R.F.C II",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "ocGreDEMIRs", "Prestige Pass", "PP", "ND Lee", REGULAR_SONG, SHORT_MIX],
 	[1, "Overdrying",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "KlmFl8bdk2A", "Prestige Pass", "PP", "M2U", REGULAR_SONG, SHORT_MIX],
 	[1, "Iron Cloud",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "BLWqife1ik8", "Prestige Pass", "PP", "r300k", REGULAR_SONG, SHORT_MIX],
 	[1, "開花",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "UIGaDH9DsGE", "Prestige Pass", "PP", "Memme", REGULAR_SONG, SHORT_MIX],
 	[1, "Glacial Alice",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "hhttps://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "XkJRUbNj7jE", "Prestige Pass", "PP", "ATAS", REGULAR_SONG, SHORT_MIX],
-	[1, "ATOPY",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "-gc6Nb4FHRg", "Prestige Pass", "PP", "SANY-ON", REGULAR_SONG, SHORT_MIX],
-	[1, "Backfire",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "OGWXlW22wgE", "Prestige Pass", "PP", "Roy Mikelate (feat. Sobrem)", REGULAR_SONG, SHORT_MIX],
+	[1, "ATOPY",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967196340130021457/Atopy4.png", "-gc6Nb4FHRg", "Prestige Pass", "PP", "SANY-ON", REGULAR_SONG, SHORT_MIX],
+	[1, "Backfire",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967196299990552647/Backfire4.png", "OGWXlW22wgE", "Prestige Pass", "PP", "Roy Mikelate (feat. Sobrem)", REGULAR_SONG, SHORT_MIX],
 	[1, "TakeOFF",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "_yUk3ALdK18", "Prestige Pass", "PP", "A1NVERSE", REGULAR_SONG, SHORT_MIX],
 	[1, "Kings",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "dCRx4ImWqgI", "Prestige Pass", "PP", "AmamoriP", REGULAR_SONG, SHORT_MIX],
 	[1, "LIGHTYEAR",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "pqoNaLboVyU", "Prestige Pass", "PP", "Zekk", REGULAR_SONG, SHORT_MIX],
 	[1, "kthnox",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "VO7CdGaHPqY", "Prestige Pass", "PP", "Sobrem", REGULAR_SONG, SHORT_MIX],
-	[1, "A Showdown Between Two Prideful Geniuses",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "sPu6_HMlfhs", "Prestige Pass", "PP", "EmoCosine vs. RiraN", REGULAR_SONG, SHORT_MIX],
+	[1, "A Showdown Between Two Prideful Geniuses",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967196867261775942/AShowdown4_44057.png", "sPu6_HMlfhs", "Prestige Pass", "PP", "EmoCosine vs. RiraN", REGULAR_SONG, SHORT_MIX],
 	[1, "Go Back",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "KYOEJ80AmKo", "Prestige Pass", "PP", "PlanetBoom (Feat. Miya)", REGULAR_SONG, SHORT_MIX],
 	[1, "Sakura Garden",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "0xH9xMV4WAE", "Prestige Pass", "PP", "M2U x Pica", REGULAR_SONG, SHORT_MIX],
 	[1, "별처럼 (Stella)",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://cdn.akamai.steamstatic.com/steam/apps/1926210/capsule_616x353.jpg?t=1649936605", "xAQ6VxStTqg", "Prestige Pass", "PP", "NieN (feat. Lee Ji Ae)", REGULAR_SONG, SHORT_MIX],
