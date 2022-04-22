@@ -23,3 +23,18 @@ The elements, in order, are as follows:
 10. `1` if short/non-extended mix, `2` if an extended mix.
 
 For more information, see [touhou-song-sorter](https://github.com/relick/touhou-song-sorter)
+This project is a fork respository of [shockdude's DJMAX Sorter](https://github.com/shockdude/djmax-song-sorter)
+
+### Credits
+Original Coding belongs to Relick
+
+Entries insertition by Arthorization
+
+Image extraction by Melone
+
+Melone is the one who made me (Arthorization) do this, so thank him for the birth of this project
+
+Special thanks to shockdude for helping me with the project and also allowing me to do this project in the first place.
+
+Note: All IPs of EZ2ON, EZ2DJ, and EZ2AC belongs to Square Pixel and Neonovice. 
+Any collab IPs belong to their respective company. 
