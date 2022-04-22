@@ -25,7 +25,7 @@ The elements, in order, are as follows:
 For more information, see [touhou-song-sorter](https://github.com/relick/touhou-song-sorter)
 This project is a fork respository of [shockdude's DJMAX Sorter](https://github.com/shockdude/djmax-song-sorter)
 
-### Credits
+## Credits
 Original Coding belongs to Relick
 
 Entries insertition by Arthorization
