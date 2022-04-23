@@ -30,7 +30,11 @@ Original Coding belongs to Relick
 
 Entries insertition by Arthorization
 
+Debugging by Arthorization
+
 Image extraction by Melone
+
+Corrections by Melone (He nagged me :O)
 
 Melone is the one who made me (Arthorization) do this, so thank him for the birth of this project
 
