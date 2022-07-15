@@ -430,7 +430,7 @@ var ary_SongData = [
 	[1, "The Queen",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750060019825/O2_Thequeen4.png", "KwqtIjJTsio", "O2JAM", "O2J", "M2U", REGULAR_SONG, SHORT_MIX],
 	[1, "Start on <RED>",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595749598625963/O2_Startonred4_46226.png", "alVK4eZIcb0", "O2JAM", "O2J", "nato", REGULAR_SONG, SHORT_MIX],
 	
-	// Deemo
+	// Groove Coaster Collab
 	[1, "Angelic Sphere",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356220/capsule_616x353.jpg", "BDIWrU3TbYE", "Deemo", "DM", "3R2", REGULAR_SONG, SHORT_MIX],
 	[1, "ANiMA",			[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356220/capsule_616x353.jpg", "tJFjBCe20H4", "Deemo", "DM", "xi", REGULAR_SONG, SHORT_MIX],
 	[1, "Dream",			[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356220/capsule_616x353.jpg", "FXkrjfZQUuQ", "Deemo", "DM", "Rabpit", REGULAR_SONG, SHORT_MIX],
