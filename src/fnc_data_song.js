@@ -37,7 +37,7 @@ var ary_TitleData = [
 	, "Time Traveler"
 	, "Codename Violet"
 	, "Priestige Pass"
-	, "O2JAM (Unfinished)"
+	, "O2JAM"
 	];
 
 
@@ -410,23 +410,23 @@ var ary_SongData = [
 	
 	// O2JAM Collab !!
 	[1, "Like This",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595625816346714/O2_Likethis4_43787.png", "xHwfhs5Kgms", "O2JAM", "O2J", "RAVEN", REGULAR_SONG, SHORT_MIX],
-	[1, "Can you Feel",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595621919830016/O2_Canyoufeel4.png", "mZXNt08GfK4", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
-	[1, "Cross Time",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595622427336704/O2_Crosstime4.png", "mZXNt08GfK4", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
-	[1, "Visual Dream",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750919831552/O2_Visualdream4.png", "mZXNt08GfK4", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
-	[1, "Move it on (DJ HD mix)",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595748654927922/O2_Moveitondjhdmix4.png", "mZXNt08GfK4", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
-	[1, "Feel the O2JAM",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595623513669632/O2_Feeltheo2jam4.png", "JNnQOs5zkk0", "O2JAM", "O2J", "BeautifulDay", REGULAR_SONG, SHORT_MIX],
-	[1, "잘가라 (Go Hell)",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595624331542639/O2_Gohell4.png", "LGH7kNXqXGc", "O2JAM", "O2J", "Red Pulse", REGULAR_SONG, SHORT_MIX],
+	[1, "Can you Feel",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595621919830016/O2_Canyoufeel4.png", "up2CU9M2_ms", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
+	[1, "Cross Time",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595622427336704/O2_Crosstime4.png", "m2r7PMPgFOA", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
+	[1, "Visual Dream",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750919831552/O2_Visualdream4.png", "G3hpeKc6E9U", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
+	[1, "Move it on (DJ HD mix)",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595748654927922/O2_Moveitondjhdmix4.png", "zY40jUsMKWk", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
+	[1, "Feel the O2JAM",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595623513669632/O2_Feeltheo2jam4.png", "IFfyj8GIq7Q", "O2JAM", "O2J", "BeautifulDay", REGULAR_SONG, SHORT_MIX],
+	[1, "잘가라 (Go Hell)",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595624331542639/O2_Gohell4.png", "9eI74V0jGh8", "O2JAM", "O2J", "Red Pulse", REGULAR_SONG, SHORT_MIX],
 	[1, "꿈속의 신부",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595365710770226/O2_Brideindream4.png", "nJutpwMiPkY", "O2JAM", "O2J", "BeautifulDay", REGULAR_SONG, SHORT_MIX],
 	[1, "Identity Part 2",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595625401106494/O2_Identitypart24.png", "UsPpDYMX3oM", "O2JAM", "O2J", "SHK", REGULAR_SONG, SHORT_MIX],
-	[1, "아름다운날",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595453510123711/O2_Beautifulday4.png", "JNnQOs5zkk0", "O2JAM", "O2J", "BeautifulDay", REGULAR_SONG, SHORT_MIX],
+	[1, "아름다운날",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595453510123711/O2_Beautifulday4.png", "l4uKk6okZAw", "O2JAM", "O2J", "BeautifulDay", REGULAR_SONG, SHORT_MIX],
 	[1, "End of Fight",					[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595622972600440/O2_Endoffight4.png", "xbZ-OmpiBwM", "O2JAM", "O2J", "All.o2SE", REGULAR_SONG, SHORT_MIX],
-	[1, "Blue Moon",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595621533941950/O2_Bluemoon4_46947.png", "BozGJJJUrUU", "O2JAM", "O2J", "nao.paradigm", REGULAR_SONG, SHORT_MIX],
+	[1, "Blue Moon",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595621533941950/O2_Bluemoon4_46947.png", "AChbjwMPtqA", "O2JAM", "O2J", "nao.paradigm", REGULAR_SONG, SHORT_MIX],
 	[1, "The Power of Light",						[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595749250502696/O2_Pol4.png", "HjQuisEPb14", "O2JAM", "O2J", "MAX", REGULAR_SONG, SHORT_MIX],
-	[1, "아시나요",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595423910928454/O2_Asinayo4.png", "wUxyWSpopXo", "O2JAM", "O2J", "HiTaZ", REGULAR_SONG, SHORT_MIX],
-	[1, "Black Dragon",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595480039116921/O2_Blackdragon4.png", "p55PziQGLDA", "O2JAM", "O2J", "Memme", REGULAR_SONG, SHORT_MIX],
-	[1, "Headless Chicken",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595624939737128/O2_Headlesschicken4.png", "wUxyWSpopXo", "O2JAM", "O2J", "r300k", REGULAR_SONG, SHORT_MIX],
-	[1, "Unison System",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750416519288/O2_Unisonsystem4_41345.png", "p55PziQGLDA", "O2JAM", "O2J", "Memme", REGULAR_SONG, SHORT_MIX],
-	[1, "바람의 날개",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595435885670421/O2_Baram4.png", "wUxyWSpopXo", "O2JAM", "O2J", "FE", REGULAR_SONG, SHORT_MIX],
+	[1, "아시나요",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595423910928454/O2_Asinayo4.png", "n8koAS2x2F0", "O2JAM", "O2J", "HiTaZ", REGULAR_SONG, SHORT_MIX],
+	[1, "Black Dragon",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595480039116921/O2_Blackdragon4.png", "Mb-nKskeCcE", "O2JAM", "O2J", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "Headless Chicken",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595624939737128/O2_Headlesschicken4.png", "W9T8GN-B9oo", "O2JAM", "O2J", "r300k", REGULAR_SONG, SHORT_MIX],
+	[1, "Unison System",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750416519288/O2_Unisonsystem4_41345.png", "lPZL-5ZSIR8", "O2JAM", "O2J", "Memme", REGULAR_SONG, SHORT_MIX],
+	[1, "바람의 날개",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595435885670421/O2_Baram4.png", "cN7XU48E50E", "O2JAM", "O2J", "FE", REGULAR_SONG, SHORT_MIX],
 	[1, "The Queen",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750060019825/O2_Thequeen4.png", "KwqtIjJTsio", "O2JAM", "O2J", "M2U", REGULAR_SONG, SHORT_MIX],
 	[1, "Start on <RED>",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595749598625963/O2_Startonred4_46226.png", "alVK4eZIcb0", "O2JAM", "O2J", "nato", REGULAR_SONG, SHORT_MIX],
 	
