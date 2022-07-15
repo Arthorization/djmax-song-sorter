@@ -151,11 +151,11 @@ var ary_SongData = [
 	[1, "Changa",				[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965364840522735696/ChangaRemaster4.png", "gv0Y7msB--k", "2nd Trax", "2nd", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	
 	// 3rd Trax :DD
-	[1, "2.14",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365311090065448/2142.png", "QCzesRS7cSc", "3rd Trax", "3rd", "FE", REGULAR_SONG, SHORT_MIX],
-	[1, "20000000000",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365311366905957/200000000002_34374.png", "M41bR9zaEu8", "3rd Trax", "3rd", "CROOVE", REGULAR_SONG, SHORT_MIX],
+	[1, "2.14",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997593935960617011/2144.png", "QCzesRS7cSc", "3rd Trax", "3rd", "FE", REGULAR_SONG, SHORT_MIX],
+	[1, "20000000000",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997593950338695250/200000000004.png", "M41bR9zaEu8", "3rd Trax", "3rd", "CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "2nd Jewel",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365311652122624/2ndJewel4.png", "E5mFTStYd0A", "3rd Trax", "3rd", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	[1, "The 3rd Place",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365311882792990/The3rdPlace4.png", "QSoR4CW3gE0", "3rd Trax", "3rd", "xxdbxx", REGULAR_SONG, SHORT_MIX],
-	[1, "Anemia",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365312159621160/Anemia3.png", "DA1aHWrRLf0", "3rd Trax", "3rd", "Andy Lee", REGULAR_SONG, SHORT_MIX],
+	[1, "Anemia",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997593850002550784/Anemia4.png", "DA1aHWrRLf0", "3rd Trax", "3rd", "Andy Lee", REGULAR_SONG, SHORT_MIX],
 	[1, "Black Market",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365312595832912/BlackMarket4.png", "8Uakbdb8vxw", "3rd Trax", "3rd", "CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "Cosmic Bird",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365312822345818/CosmicBird4.png", "ImgDeK6e_r8", "3rd Trax", "3rd", "FE, CROOVE", REGULAR_SONG, SHORT_MIX],
 	[1, "Give it 2 me",							[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965365313053028422/GiveIt2Me4.png", "sXWvPxk5eUI", "3rd Trax", "3rd", "FE", REGULAR_SONG, SHORT_MIX],
@@ -298,7 +298,7 @@ var ary_SongData = [
 	[1, "T-eMotion",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965370526396743690/TeMotion4.png", "_RLzrSqjaKA", "EZ2ON 2008", "2008", "SHK", REGULAR_SONG, SHORT_MIX],
 	[1, "The World is One's Oyster",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965370526728081518/WorldIsOnesOyster4.png", "yYEOBYiKop4", "EZ2ON 2008", "2008", "r300k", REGULAR_SONG, SHORT_MIX],
 	[1, "You Keep Me Waiting",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965370526937776138/YouKeepMeWaiting4.png", "tALoFq0I8zE", "EZ2ON 2008", "2008", "ALTiTUNE", REGULAR_SONG, SHORT_MIX],
-	[1, "Clear After Rain",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965370527143301190/AfterRain3.png", "A9hK4CDsj-A", "EZ2ON 2008", "2008", "ALTiTUNE", REGULAR_SONG, SHORT_MIX],
+	[1, "Clear After Rain",					[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594167423283331/AfterRain4_46174.png", "A9hK4CDsj-A", "EZ2ON 2008", "2008", "ALTiTUNE", REGULAR_SONG, SHORT_MIX],
 			
 	// EZ2ON 2013 :DD
 	[1, "The ASHTRAY",				[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965371013376401459/TheAshtray4.png", "iQ06D-p_Tog", "Azure Expression", "2013", "r300k", REGULAR_SONG, SHORT_MIX],
@@ -352,22 +352,22 @@ var ary_SongData = [
 	[1, "PUPA",								[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372443399180308/PUPA4.png", "wFW6qyZmQVw", "BMS", "2021", "モリモリあつし ", EXTERIOR_SONG, SHORT_MIX],
 	
 	// Time Traveler :DD
-	[1, "8th Planet (Progressive House Remix)", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866063388682/Beyond4.png", "tUm6q6CJbUA", "Time Traveler", "TT", "P4koo", REGULAR_SONG, SHORT_MIX],
+	[1, "8th Planet (Progressive House Remix)", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594601349206117/8thPlanetRemix4_42776.png", "tUm6q6CJbUA", "Time Traveler", "TT", "P4koo", REGULAR_SONG, SHORT_MIX],
 	[1, "#BEYOND", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866063388682/Beyond4.png", "lyDHBLqvA3k", "Time Traveler", "TT", "Roy C. vs Transin", REGULAR_SONG, SHORT_MIX],
 	[1, "Black Sour Ruby", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866302459924/BlackSourRuby4.png", "qoeH-vUmu7M", "Time Traveler", "TT", "Cosine", REGULAR_SONG, SHORT_MIX],
 	[1, "#Ctrl+Alt+Del", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866600243240/CtrlAltDel4.png", "6wMHoGPFqjc", "Time Traveler", "TT", "Roy Mikelate", REGULAR_SONG, SHORT_MIX],
 	[1, "Darker than Black", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866822545418/DarkerThanBlack4.png", "dPSYA3fAxSA", "Time Traveler", "TT", "Springhead", REGULAR_SONG, SHORT_MIX],
-	[1, "Destruction", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372866822545418/DarkerThanBlack4.png", "6O4U-8AuYrs", "EZ2ON RR", "TT", "DJ MURASUME", REGULAR_SONG, SHORT_MIX],	
+	[1, "Destruction", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594737429196841/Destruction4.png", "6O4U-8AuYrs", "EZ2ON RR", "TT", "DJ MURASUME", REGULAR_SONG, SHORT_MIX],	
 	[1, "Encounter on Orbit", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867057438820/EncounterOnOrbit4.png", "KKdUCN3ILh0", "Time Traveler", "TT", "Aresynth", REGULAR_SONG, SHORT_MIX],
-	[1, "Footprints", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867057438820/EncounterOnOrbit4.png", "eKelGZtk0c8", "EZ2ON RR", "TT", "Lokan & Cal", REGULAR_SONG, SHORT_MIX],
+	[1, "Footprints", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594460898730076/Footprints4_47401.png", "eKelGZtk0c8", "EZ2ON RR", "TT", "Lokan & Cal", REGULAR_SONG, SHORT_MIX],
 	[1, "Guardian", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867325870180/Guardian4.png", "rnosJ9Fo6II", "Time Traveler", "TT", "Lunatic Sounds", REGULAR_SONG, SHORT_MIX],
 	[1, "Hi-Tech Soda Machine", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867552378880/HitechSodaMachine4.png", "CGWzG73SD4o", "EZ2ON RR", "TT", "M0DDRA1D", REGULAR_SONG, SHORT_MIX],
-	[1, "Last Flight", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867745296394/LastKnot4_34557.png", "qg6l9gHeWCs", "Time Traveler", "TT", "P4koo", REGULAR_SONG, SHORT_MIX],
+	[1, "Last Flight", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594502774661212/LastFlight4.png", "qg6l9gHeWCs", "Time Traveler", "TT", "P4koo", REGULAR_SONG, SHORT_MIX],
 	[1, "Last Knot", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867745296394/LastKnot4_34557.png", "AzXruNXsUWU", "Time Traveler", "TT", "Sobrem", REGULAR_SONG, SHORT_MIX],
 	[1, "Precision Strike", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372867963408444/PrecisionStrike4.png", "sVZKz9u68is", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
-	[1, "Regeneraxion", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372868366045244/Skyline4.png", "UnVIsUd64o4", "Time Traveler", "TT", "Reku Mochizuki", REGULAR_SONG, SHORT_MIX],
+	[1, "Regeneraxion", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594430280302742/Regeneraxion4.png", "UnVIsUd64o4", "Time Traveler", "TT", "Reku Mochizuki", REGULAR_SONG, SHORT_MIX],
 	[1, "Skyline", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372868366045244/Skyline4.png", "jV5gbz8Y3Ko", "Time Traveler", "TT", "Lokan", REGULAR_SONG, SHORT_MIX],
-	[1, "별바라기", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372868366045244/Skyline4.png", "4Tiq2T90NoQ", "Time Traveler", "TT", "ATAS", REGULAR_SONG, SHORT_MIX],
+	[1, "별바라기", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997594393349455982/StarSeeker4_46118.png", "4Tiq2T90NoQ", "Time Traveler", "TT", "ATAS", REGULAR_SONG, SHORT_MIX],
 	[1, "sweet star", [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/773273391569829928/965372871629225984/SweetStar4.png", "BqXVmItf5OA", "Time Traveler", "TT", "ginkiha", REGULAR_SONG, SHORT_MIX],
 	
 	// Codename Violet :DD
