@@ -419,6 +419,15 @@ var ary_SongData = [
 	[1, "個人的なメモ(KENPO SAITO)",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1025483137876238447/KenpoSaito4.png", "qsLIPfw9_O8", "Prestige Pass", "PP", "ASLETICS x Zpinkpong", REGULAR_SONG, SHORT_MIX],
 	[1, "다 잘될 거야 (Almost There)",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1025483136609558529/AlmostThere4_43289.png", "VLOKQp6sCPc", "Prestige Pass", "PP", "TAK (feat. 95jack)", REGULAR_SONG, SHORT_MIX],
 	[1, "LIMBO",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1025483138681557012/Limbo4.png", "1BtvVnsl4IM", "Prestige Pass", "PP", " Mori†", REGULAR_SONG, SHORT_MIX],
+	[1, "ROD7 -Regions of Desolation-",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198714772992051/Stella4_42113.png", "-bZ11kOsWM4", "Prestige Pass", "PP", "NieN ", REGULAR_SONG, SHORT_MIX],
+	[1, "Decision Altitude",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198766295834664/Takeoff4_36816.png", "x4Su58O2aIo", "Prestige Pass", "PP", "A1NVERSE", REGULAR_SONG, SHORT_MIX],
+	[1, "JUSTITIA",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198714772992051/Stella4_42113.png", "YAVybasBzwo", "Prestige Pass", "PP", "Cosmograph vs. Lunatic Sounds (feat. NieN) ", REGULAR_SONG, SHORT_MIX],
+	[1, "2038 (2022 Version)",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967363664128651294/VariousWays4_36108.png", "fCiqq8xszog", "Prestige Pass", "PP", "Yamajet", REGULAR_SONG, SHORT_MIX],
+	[1, "ozma",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1025483138681557012/Limbo4.png", "BEfVzXiJelo", "Prestige Pass", "PP", " TJ.hangniel", REGULAR_SONG, SHORT_MIX],
+	[1, "Cybernetic Geist",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198714772992051/Stella4_42113.png", "JRvPlbG1kd8", "Prestige Pass", "PP", "KARUT", REGULAR_SONG, SHORT_MIX],
+	[1, "Glimmering",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198766295834664/Takeoff4_36816.png", "tFn75q1Qp3Q", "Prestige Pass", "PP", "ARForest", REGULAR_SONG, SHORT_MIX],
+	[1, "Diabolic Swing",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967198714772992051/Stella4_42113.png", "Q13edx_o6DY", "Prestige Pass", "PP", "t+pazolite", REGULAR_SONG, SHORT_MIX],
+	[1, "ONE",			[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/967363664128651294/VariousWays4_36108.png", "jivXiVRNmZg", "Prestige Pass", "PP", "Nauts", REGULAR_SONG, SHORT_MIX],
 	
 	// O2JAM Collab !!
 	[1, "Like This",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595625816346714/O2_Likethis4_43787.png", "xHwfhs5Kgms", "O2JAM", "O2J", "RAVEN", REGULAR_SONG, SHORT_MIX],
@@ -441,6 +450,7 @@ var ary_SongData = [
 	[1, "바람의 날개",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/997595435885670421/O2_Baram4.png", "lX9xZfkyVCc", "O2JAM", "O2J", "FE", REGULAR_SONG, SHORT_MIX],
 	[1, "The Queen",								[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750060019825/O2_Thequeen4.png", "KwqtIjJTsio", "O2JAM", "O2J", "M2U", REGULAR_SONG, SHORT_MIX],
 	[1, "Start on <RED>",							[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595749598625963/O2_Startonred4_46226.png", "alVK4eZIcb0", "O2JAM", "O2J", "nato", REGULAR_SONG, SHORT_MIX],
+	[1, "유령의 축제(The Festival of Ghost)",				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "https://cdn.discordapp.com/attachments/894040022104281128/997595750919831552/O2_Visualdream4.png", "FGFY7sLMgQw", "O2JAM", "O2J", "Brandy", REGULAR_SONG, SHORT_MIX],
 	
 	// Groove Coaster Collab
 	[1, "10pt8ion",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356220/capsule_616x353.jpg", "kS8ILwLVW5o", "Groove Coasteer", "GC", "Lite Show Magic", REGULAR_SONG, SHORT_MIX],
