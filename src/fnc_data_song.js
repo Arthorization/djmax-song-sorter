@@ -36,9 +36,9 @@ var ary_TitleData = [
 	, "EZ2ON 2021"
 	, "Time Traveler"
 	, "Codename Violet"
-	, "Priestige Pass (unfinished) "
+	, "Priestige Pass"
 	, "O2JAM"
-	, "Groove Coaster (unfinished)" 
+	, "Groove Coaster" 
 	];
 
 
