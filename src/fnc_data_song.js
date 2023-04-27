@@ -38,7 +38,10 @@ var ary_TitleData = [
 	, "Codename Violet"
 	, "Priestige Pass"
 	, "O2JAM"
-	, "Groove Coaster" 
+	, "Groove Coaster"
+	, "Endless Circulation (coming soon)"
+	, "DJMAX"
+	
 	];
 
 
