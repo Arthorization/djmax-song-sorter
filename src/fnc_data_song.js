@@ -464,7 +464,7 @@ var ary_SongData = [
 	[1, "Per Aspera Ad Astra",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1053438609904123915/GC_Perasperaadastra4_52034.png", "YipJS5WXSBI", "Groove Coasteer", "GC", "xi", REGULAR_SONG, SHORT_MIX],
 	[1, "VOLT",	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0], "https://media.discordapp.net/attachments/894040022104281128/1053438610248040588/GC_Volt4_46465.png", "a3uUQZDDlcE", "Groove Coasteer", "GC", "aran", REGULAR_SONG, SHORT_MIX],
 	
-	// Cytus
+	// Endless Circulation 
 	[1, "AXION",					[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356221/capsule_616x353.jpg", "vF-y-Ap1NiI", "Cytus", "CY", "sakuzyo", REGULAR_SONG, SHORT_MIX],
 	[1, "CODE NAME: ZERO",			[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356221/capsule_616x353.jpg", "WIiG8bHoAbM", "Cytus", "CY", "NeLIME", REGULAR_SONG, SHORT_MIX],
 	[1, "conflict",					[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0], "https://cdn.cloudflare.steamstatic.com/steam/apps/1356221/capsule_616x353.jpg", "fEcI8wW_omw", "Cytus", "CY", "Cranky + siromaru", REGULAR_SONG, SHORT_MIX],
