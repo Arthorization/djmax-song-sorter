@@ -39,8 +39,8 @@ var ary_TitleData = [
 	, "Priestige Pass"
 	, "O2JAM"
 	, "Groove Coaster"
-	, "Endless Circulation (coming soon)"
-	, "DJMAX"
+	, "Endless Circulation (BETA)"
+	, "DJMAX (Coming Soon)"
 	
 	];
 
